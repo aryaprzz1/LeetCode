@@ -43,7 +43,7 @@ public class L1_TwoSum {
     public int[] twoSum1(int[] nums, int target){
         HashMap<Integer,Integer> m = new HashMap<>();
         for(int i = 0 ;i < nums.length; i++){
-            m.put(nums[i], 1);
+            m.put(nums[i],1);
         
         }
 
